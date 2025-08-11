@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog1</class>
+ <widget class="QDialog" name="Dialog1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1110</width>
+    <height>844</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>471</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt; font-weight:600; font-style:italic; color:#4c1d19;&quot;&gt;model_LC&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="gender_box">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>240</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>female</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>female</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>male</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Age:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="TB_age">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Gender:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="smoking_box">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Smoking?:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Finger discoloration:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="finger_box">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>410</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Mental stress:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="mental_box">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>420</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>271</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Exposure to pollution:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="pollution_box">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>480</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>530</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Long term illness:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ill_box">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>540</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Energy level(0-100):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="TB_energy">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>600</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>640</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Immune weakness:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="immune_box">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>660</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>180</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Breathing issue:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="breath_box">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>180</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>240</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Alcohol consumption:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="alcohol_box">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>240</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>300</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Throat discomfort:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="throat_box">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>300</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>360</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Oxygen saturation(blood):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="TB_oxygen">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>420</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Chest tightness:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="chest_box">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>420</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>480</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Family history of cancer:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="family_box">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>480</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>530</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Family history of smoking:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="family_smoke_box">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>540</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>590</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Stress affects immunity:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="stress_eff_box">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>600</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="currentText">
+    <string>yes</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>yes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>no</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="result_button">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>740</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 4);
+color: rgb(255, 255, 255);
+font: 22pt &quot;Nirmala UI Semilight&quot;;</string>
+   </property>
+   <property name="text">
+    <string>GET RESULT</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="answer_LC">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>670</y>
+     <width>651</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Nirmala Text Semilight&quot;;</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Nirmala Text Semilight'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Здесь будет ответ нейросети...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>71</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
